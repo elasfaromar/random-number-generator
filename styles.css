@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(Font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url(Font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(Font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Thin";
+    src: url(Font/Poppins-Thin.ttf);
+}
+
+body{
+    background-color: #deb887;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+h1{
+    text-align: center;
+    font-family: "Poppins-Bold";
+}
+
+#body>*{
+    display: flex;
+    justify-content: center;
+    margin: 4vh;
+}
+
+#max, #min{
+    margin-left: 1vh;
+}
+
+::placeholder {
+    color: #d6d6d6;
+    opacity: 1;
+    opacity: 50%;
+}
+
+label{
+    font-family: "Poppins-Regular";
+}
+
+input{
+    background-color: #d2691e;
+    color: #d6d6d6;
+    font-family: "Poppins-Medium";
+}
+
+#submit{
+    font-family: "Poppins-Medium";
+    font-size: 3vh;
+}
+
+#answer{
+    font-family: "Poppins-Thin";
+    font-size: 3vh;
+}
